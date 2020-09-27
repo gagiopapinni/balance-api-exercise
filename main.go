@@ -30,7 +30,7 @@ func main() {
 
 	r := gin.Default()
 
-	r.POST("/create_user", func(c *gin.Context) {
+	r.POST("/create-user", func(c *gin.Context) {
 
 		obj := struct{Name string}{}
 
